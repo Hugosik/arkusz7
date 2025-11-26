@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INF.03-07-25.06-SG</title>
+    <style>
+        body {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        header, footer, aside, section {
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header {
+            height: 80px;
+        }
+
+        main {
+            border: 2px solid black;
+            flex: 1;
+            display: flex;
+            position: relative;
+            padding: 50px;
+        }
+
+        /* Styl dla napisu "Blok główny" */
+        p{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        aside {
+            flex: 1;
+            height: 100%;
+            border: 1px solid black; 
+        }
+
+        section {
+            flex: 1;
+            height: 100%;
+            border: 1px solid black;
+        }
+
+        footer {
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Blok nawigacyjny
+    </header>
+
+    <main>
+        <p>Blok główny</p>
+        
+        <aside>
+            Blok boczny
+        </aside>
+
+        <section>
+            Sekcja
+        </section>
+    </main>
+
+    <footer>
+        Blok stopki
+    </footer>
+    <div>
+        <br><br>
+        Wzór:
+        <br>
+        <img src="07.png">
+    </div>
+
+</body>
+</html>
